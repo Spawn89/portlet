@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>List Items</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	</head>
+	<body>
+	    <h1>Also Hello World VM!</h1>
+	    <ul>
+	        #foreach( $item in ${list} )
+	            <li>$item.title</li>
+	        #end
+	    </ul> 
+	    $("button.my-button").click(function(){
+            alert("Hello!");
+            $.ajax({
+			  url: 'http://localhost:8080/newsroom/rest/also,
+			  dataType: 'json',
+			  data: data,
+			  success: callback
+			});
+        });   
+	</body>
+</html>
